@@ -383,7 +383,7 @@ EOF;
 
 function easy_mortgage_rates_css() {
 		$blog_url = get_bloginfo('wpurl');
-		echo <<<EOF
+		print <<<EOF
 			<link rel="stylesheet" type="text/css" href="{$blog_url}/wp-content/plugins/easy-mortgage-rates/easy-mortgage-rates.css" />
 EOF;
 }
