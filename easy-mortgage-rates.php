@@ -381,9 +381,17 @@ EOF;
   	}
 }
 
+function easy_mortgage_rates_css() {
+		$blog_url = get_bloginfo('wpurl');
+		echo <<<EOF
+			<link rel="stylesheet" type="text/css" href="{$blog_url}/wp-content/plugins/easy-mortgage-rates/easy-mortgage-rates.css" />
+EOF;
+}
+
 function easyMortgageRates_init()
 {
 	add_shortcode('easy_mortgage_rates_table', 'easy_mortgage_rates_table');
+	add_action('wp_head', 'easy_mortgage_rates_css');
 	wp_register_sidebar_widget('easy_mortage_rates_table', __('Display Rates Table'), 'widget_display_rates_table');
 	wp_register_widget_control('easy_mortage_rates_table', __('Display Rates Table'), 'widget_display_rates_table_control');
 }
