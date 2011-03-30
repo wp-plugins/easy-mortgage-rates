@@ -3,7 +3,7 @@
 Plugin Name: Easy Mortgage Rates
 Plugin URI: http://wordpress.org/extend/plugins/easy-mortgage-rates/
 Description: Allows you to enter in various mortgage rate information into a table for display.
-Version: .1
+Version: .2
 Author: Sheldon Chang
 Author URI: http://www.hyperlinked.com
 License: GPL2

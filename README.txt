@@ -13,3 +13,5 @@ In the settings for Easy Mortgage Rates you may set the number of hours you want
 
 If you wish to omit rate information for certain programs, leave the corresponding fields blank and the program will not be displayed in your custom rate table. You may also leave all APR fields blank if you wish to omit the APR column in your table. 
 
+=== Changelog ===
+3/30/11 - A simple CSS starter file was added so that the initial table outputted by the plugin would look good enough to use straight from the install.
